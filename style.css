@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.propetiesOfMe {
+  margin: 30px 20px 20px;
+}
+
+.myStory {
+  margin: 30px 20px 20px;
+}
+.myStory h2 {
+  font-size: 44px;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  color: #111;
+  margin: 30px 20px 20px;
+}
+
+.myStory p {
+  font-size: 16px;
+  margin: 20px 20px 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #111;
+}
+
+.mePhoto {
+  width: 100%;
+  margin: 30px auto auto;
+  height: 50%;
+}
+
+@media only screen and (min-width: 768px) {
+  .myStory h2 {
+    width: 30%;
+    margin-top: 0px;
+  }
+  .mePhoto {
+    width: 50%;
+    float: left;
+  }
+
+  .myStory p {
+    font-size: 16px;
+    margin: 0px 0px 10px 0px;
+  }
+
+  .myStory {
+    width: 40%;
+    float: right;
+  }
+}
